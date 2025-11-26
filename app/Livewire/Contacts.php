@@ -9,8 +9,6 @@ use Livewire\Attributes\Title;
 #[Title('Contacts')]
 class Contacts extends Component
 {
-    public $name;
-    
     public ContactForm $form;
 
     public function submit()
